@@ -6,53 +6,76 @@
     <title>Lumea Animalelor</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f9f4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #eef5ed;
             color: #333;
             margin: 0;
             padding: 20px;
         }
         header {
             text-align: center;
-            padding: 20px;
-            background-color: #4CAF50;
+            padding: 30px 20px;
+            background-color: #2E7D32;
             color: white;
-            border-radius: 8px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.1em;
+            opacity: 0.9;
         }
         .container {
-            max-width: 1000px;
-            margin: 20px auto;
+            max-width: 1100px;
+            margin: 30px auto;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
         }
         .card {
             background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.08);
             overflow: hidden;
-            transition: transform 0.2s;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
         .card:hover {
-            transform: scale(1.02);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
         }
         .card img {
             width: 100%;
-            height: 200px;
+            height: 240px;
             object-fit: cover;
+            display: block;
         }
         .card-content {
-            padding: 15px;
+            padding: 20px;
         }
         .card-content h3 {
-            margin-top: 0;
-            color: #2E7D32;
+            margin: 0 0 12px 0;
+            color: #1B5E20;
+            font-size: 1.4em;
+            border-bottom: 2px solid #81C784;
+            padding-bottom: 5px;
+        }
+        .card-content p {
+            margin: 0;
+            line-height: 1.6;
+            color: #555;
+            font-size: 0.95em;
         }
         footer {
             text-align: center;
-            margin-top: 40px;
+            margin-top: 50px;
+            padding: 20px;
             font-size: 0.9em;
             color: #666;
+            border-top: 1px solid #ddd;
         }
     </style>
 </head>
@@ -60,42 +83,42 @@
 
     <header>
         <h1>Lumea minunată a animalelor</h1>
-        <p>Descoperă curiozități interesante despre câteva dintre cele mai remarcabile creaturi</p>
+        <p>Descoperă curiozități interesante și imagini uimitoare cu diverse specii</p>
     </header>
 
     <div class="container">
 
         <!-- Cardul 1: Leul -->
         <div class="card">
-            <img src="https://unsplash.com" alt="Leu">
+            <img src="https://unsplash.com" alt="Portret Leu">
             <div class="card-content">
                 <h3>Leul</h3>
-                <p>Leul este cunoscut drept „regele animalelor”. Aceste mamifere mari de pradă trăiesc în grupuri de familie numite mândrii. Își petrec cea mai mare parte a zilei odihnindu-se la umbră.</p>
+                <p>Leul este cunoscut drept „regele animalelor”. Aceste mamifere mari de pradă trăiesc în grupuri de familie numite mândrii. Își petrec cea mai mare parte a zilei odihnindu-se la umbra savanei africane.</p>
             </div>
         </div>
 
         <!-- Cardul 2: Panda -->
         <div class="card">
-            <img src="https://unsplash.com" alt="Ursul Panda">
+            <img src="https://unsplash.com" alt="Ursul Panda mănâncă bambus">
             <div class="card-content">
                 <h3>Ursul Panda</h3>
-                <p>Urșii panda sunt faimoși pentru blana lor alb-negru și dragostea pentru bambus. Un panda adult poate mânca până la 30 de kilograme de bambus pe zi, petrecând aproape 12 ore hrănindu-se.</p>
+                <p>Urșii panda sunt faimoși pentru blana lor alb-negru și dragostea lor absolută pentru bambus. Un panda adult poate mânca până la 30 de kilograme de bambus pe zi, petrecând aproape 12 ore hrănindu-se.</p>
             </div>
         </div>
 
         <!-- Cardul 3: Delfinul -->
         <div class="card">
-            <img src="https://unsplash.com" alt="Delfin">
+            <img src="https://unsplash.com" alt="Delfin în ocean">
             <div class="card-content">
                 <h3>Delfinul</h3>
-                <p>Delfinii sunt printre cele mai inteligente creaturi marine. Ei folosesc un sistem complex de comunicare prin sunete și ecolocație, fiind recunoscuți pentru comportamentul lor prietenos față de oameni.</p>
+                <p>Delfinii sunt printre cele mai inteligente creaturi marine de pe planetă. Ei folosesc un sistem complex de comunicare prin sunete și ecolocație, fiind extrem de jucăuși și prietenoși cu oamenii.</p>
             </div>
         </div>
 
     </div>
 
     <footer>
-        <p>© 2026 Prima mea pagină despre animale</p>
+        <p>© 2026 Proiectul meu Web - Lumea Animalelor</p>
     </footer>
 
 </body>
