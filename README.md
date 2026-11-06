@@ -5,7 +5,7 @@ Salut! Sunt student la Facultatea de Inginerie Electrică și Știința Calculat
 
 ## 💻 Competențe și Tehnologii
 Până în prezent, am studiat și am lucrat cu:
-- **Limbaje de programare:** C++, HTML, CSS
+- **Limbaje de programare:** C, C++, HTML, CSS
 - **Unelte:** Git, GitHub, VSCode
 - **Sisteme de operare:** Windows / Linux
 
